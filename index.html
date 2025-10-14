@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio | Jose Luis Lopez</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0d1117;
+      color: #e6edf3;
+      overflow-x: hidden;
+    }
+
+    /* Fondo animado */
+    canvas#bg {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      z-index: -1;
+    }
+
+    header {
+      background: rgba(22,27,34,0.9);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      backdrop-filter: blur(8px);
+      z-index: 10;
+    }
+    header h2 { color: #58a6ff; }
+    nav a {
+      color: #e6edf3; margin: 0 1rem;
+      text-decoration: none; transition: color 0.3s;
+    }
+    nav a:hover { color: #58a6ff; }
+
+    .hero { text-align: center; padding: 6rem 1rem; }
+    .hero h1 { font-size: 2.8rem; margin-bottom: 1rem; color: #fff; }
+    .hero p { color: #a5b1c2; max-width: 600px; margin: 0 auto; }
+
+    .projects { padding: 4rem 2rem; background: rgba(13,17,23,0.9); }
+    .projects h2 { text-align: center; margin-bottom: 2rem; color: #58a6ff; }
+
+    .project-grid {
+      display: grid; gap: 1.5rem;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .card {
+      background: rgba(22,27,34,0.9);
+      padding: 1.5rem; border-radius: 10px;
+      border: 1px solid #30363d;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 15px rgba(88,166,255,0.2);
+    }
+    .card h3 { margin-bottom: 0.5rem; color: #fff; }
+    .card p { color: #a5b1c2; margin-bottom: 0.8rem; }
+    .card a {
+      color: #58a6ff;
+      border: 1px solid #58a6ff;
+      border-radius: 6px;
+      padding: 0.4rem 1rem;
+      font-size: 0.9rem;
+      text-decoration: none;
+      transition: all 0.3s;
+    }
+    .card a:hover { background: #58a6ff; color: #0d1117; }
+
+    .skills { padding: 4rem 2rem; text-align: center; }
+    .skills h2 { color: #58a6ff; }
+    .skills-list {
+      display: flex; flex-wrap: wrap; justify-content: center;
+      gap: 1rem; margin-top: 2rem;
+    }
+    .skill {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 8px;
+      padding: 0.7rem 1.2rem;
+    }
+
+    .contact {
+      padding: 4rem 2rem; text-align: center;
+      background: rgba(13,17,23,0.9);
+    }
+    .contact a {
+      display: inline-block; margin: 0.5rem;
+      padding: 0.8rem 1.5rem;
+      border: 1px solid #58a6ff;
+      border-radius: 8px; color: #58a6ff;
+      transition: all 0.3s;
+    }
+    .contact a:hover { background: #58a6ff; color: #0d1117; }
+
+    footer {
+      text-align: center; padding: 1.5rem;
+      background: rgba(22,27,34,0.9);
+      color: #a5b1c2; font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="bg"></canvas>
+
+  <header>
+    <h2>Jose Luis Lopez</h2>
+    <nav>
+      <a href="#projects">Proyectos</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Ingeniero de Software</h1>
+    <p>Ingeniero de software especializado en backend, microservicios y cloud computing (AWS). Experiencia con Python, .NET, Node.js y PHP.</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Proyectos Destacados</h2>
+    <div class="project-grid" id="projectGrid">
+      <!-- Los proyectos se insertan dinámicamente -->
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Habilidades Técnicas</h2>
+    <div class="skills-list">
+      <span class="skill">Python</span>
+      <span class="skill">.NET Core</span>
+      <span class="skill">Node.js</span>
+      <span class="skill">PHP / Laravel</span>
+      <span class="skill">AWS</span>
+      <span class="skill">Docker</span>
+      <span class="skill">PostgreSQL</span>
+      <span class="skill">Microservicios</span>
+      <span class="skill">REST APIs</span>
+      <span class="skill">Angular</span>
+      <span class="skill">VUE</span>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contacto</h2>
+    <a href="mailto:jluislval@gmail.com">Email</a>
+    <a href="https://github.com/jluislval" target="_blank">GitHub</a>
+    <a href="www.linkedin.com/in/jose-luis-lopez-valenzuela-b9a52410b" target="_blank">LinkedIn</a>
+  </section>
+
+  <footer>© 2025 Jose Luis Lopez. jluislval@gmail,com</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

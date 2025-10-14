@@ -1,0 +1,26 @@
+[
+  {
+    "titulo": "API de Gestión (Python)",
+    "descripcion": "API REST con FastAPI, JWT y PostgreSQL. CRUD completo con autenticación por roles.",
+    "tecnologia": "Python",
+    "url": "https://github.com/tuusuario/api-gestion"
+  },
+  {
+    "titulo": "ERP Modular (.NET)",
+    "descripcion": "Solución de inventario y ventas con ASP.NET Core y Entity Framework.",
+    "tecnologia": ".NET",
+    "url": "https://github.com/tuusuario/erp-dotnet"
+  },
+  {
+    "titulo": "Microservicio de Logs (Node.js)",
+    "descripcion": "Sistema de registro distribuido con Express, MongoDB y RabbitMQ.",
+    "tecnologia": "Node.js",
+    "url": "https://github.com/tuusuario/microservicio-logs"
+  },
+  {
+    "titulo": "API de Facturación (PHP)",
+    "descripcion": "Proyecto Laravel con JWT y generación de facturas en PDF.",
+    "tecnologia": "PHP",
+    "url": "https://github.com/tuusuario/api-facturacion"
+  }
+]
