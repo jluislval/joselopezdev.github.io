@@ -3,7 +3,7 @@
     "titulo": "API de Gestión (Python)",
     "descripcion": "API REST con FastAPI, JWT y PostgreSQL. CRUD completo con autenticación por roles.",
     "tecnologia": "Python",
-    "url": "https://github.com/jluislval/joselopezdev.github.io"
+    "url": "https://github.com/jluislval/user_management_api"
   },
   {
     "titulo": "ERP Modular (.NET)",
