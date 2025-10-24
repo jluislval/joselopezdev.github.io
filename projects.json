@@ -9,7 +9,7 @@
     "titulo": " Gestor de Inventario (.NET + Angular)",
     "descripcion": "Solución de inventario y ventas con ASP.NET Core.",
     "tecnologia": ".NET, Angular",
-    "url": "https://github.com/jluislval/GestorInventariot"
+    "url": "https://github.com/jluislval/GestorInventario"
   },
   {
     "titulo": "Microservicio de Logs (Node.js)",
