@@ -6,10 +6,10 @@
     "url": "https://github.com/jluislval/user_management_api"
   },
   {
-    "titulo": "ERP Modular (.NET)",
-    "descripcion": "Solución de inventario y ventas con ASP.NET Core y Entity Framework.",
-    "tecnologia": ".NET",
-    "url": "https://github.com/tuusuario/erp-dotnet"
+    "titulo": " Gestor de Inventario (.NET + Angular)",
+    "descripcion": "Solución de inventario y ventas con ASP.NET Core.",
+    "tecnologia": ".NET, Angular",
+    "url": "https://github.com/jluislval/GestorInventariot"
   },
   {
     "titulo": "Microservicio de Logs (Node.js)",
